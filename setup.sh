@@ -5,7 +5,15 @@ sudo apt install git
 
 # 2. Instalar herramientas de desarrollo
 
+sudo apt install curl
+
 # 2.1. Instalar Node.js
+
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.profile
+nvm install v12.14.1
+nvm use v12.14.1
+node --version
 
 # 2.2. Instalar visual studio code
 
