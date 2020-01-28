@@ -1,5 +1,8 @@
 # 1. Instalar git
 
+sudo apt update
+sudo apt install git
+
 # 2. Instalar herramientas de desarrollo
 
 # 2.1. Instalar Node.js
