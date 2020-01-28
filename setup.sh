@@ -15,9 +15,18 @@ nvm install v12.14.1
 nvm use v12.14.1
 node --version
 
-# 2.2. Instalar visual studio code
+# 2.2 Instalar visual studio code
 
-# 2.3 Instalar librerías
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
+
+# 2.3 Instalar extensiones de VS code
+
+# 2.4 Instalar librerías
 
 # 3. Instalar herramientas de bases de datos
 
