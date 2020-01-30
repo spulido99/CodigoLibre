@@ -39,3 +39,7 @@ sudo apt install code
 # 4.1. Instalar librerías
 
 # 5. Bajar applicación base
+
+# 5.1. Bajar paginas web de tutoriales
+
+# 5.2. Bajar manuales & pdf de documentacion de los frameworks (React, Express, Apollo, SQL: [MySQL, Postgress], Neo4j) 
