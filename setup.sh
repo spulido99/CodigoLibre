@@ -32,6 +32,27 @@ sudo apt install code
 
 # 3.1. Instalar motor de base de datos
 
+# 3.1.1 Neo4j
+
+# Instalar docker
+sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+# Run Neo4j docker
+
+docker run \
+    --publish=7474:7474 --publish=7687:7687 \
+    --volume=$HOME/neo4j/data:/data \
+    neo4j
+    
+# logearse con neo4j/neo4j y cambiar el password
+
+
 # 3.2. Instalar visualizador de base de datos
 
 # 4. Instalar herramientas para back
