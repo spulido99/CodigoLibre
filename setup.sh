@@ -528,6 +528,15 @@ npm install gatsby
 npm install phenomic
 npm install crisp-bigquery
 npm install react-server-routing-example
+npm install react
+npm install react-apollo
+npm install react-dom
+npm install react-hook-form
+npm install styled-components
+npm install uuid
+npm install yup
+  
+    
 
 # 3. Instalar herramientas de bases de datos
 
